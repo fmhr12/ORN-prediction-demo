@@ -86,7 +86,7 @@ ui <- fluidPage(
                   selected = "1"),
       selectInput("Insurance_Type", "Dental Insurance Status",
                   choices = list("Out-of-Pocket" = "0", "Private" = "1", "Public" = "2"),
-                  selected = "1"),
+                  selected = "2"),
       numericInput("Smoking_Pack_per_Year", "Smoking Pack-Year", value = 10, min = 0, max = 200),
 
       # New inputs for time points:
