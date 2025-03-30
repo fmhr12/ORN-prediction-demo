@@ -103,7 +103,7 @@ ui <- fluidPage(
                          choices = list("Average Overall" = "overall", 
                                         "Average ORN Positive" = "pos", 
                                         "Average ORN Negative" = "neg"),
-                         selected = "overall"),
+                         selected = ""),
       
       actionButton("predictBtn", "Predict & Explain"),
       br(),
